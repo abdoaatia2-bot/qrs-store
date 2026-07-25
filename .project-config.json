@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "REDACTED_ROTATE_THIS_AND_SET_LOCALLY"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "name": "qrs_store_fullstack",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "REDACTED_ROTATE_THIS",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "REDACTED_ROTATE_THIS",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_OPEN_ID": "REDACTED",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "38ad9970-8e0f-4b6f-bd72-861866cb41cf",
+    "VITE_APP_ID": "REDACTED",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "QRS STORE - PlayStation Games Store",
+    "VITE_FRONTEND_FORGE_API_KEY": "REDACTED_ROTATE_THIS",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
